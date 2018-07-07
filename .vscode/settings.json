@@ -10,6 +10,7 @@
     "bucket",
     "bxp",
     "com",
+    "component",
     "config",
     "const",
     "constants",
@@ -41,8 +42,10 @@
     "storage",
     "store",
     "sy",
+    "unmount",
     "url",
     "w",
+    "will",
     "ynz"
   ]
 }
