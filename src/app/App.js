@@ -13,7 +13,8 @@ import Navbar from '../components/Navbar/Navbar';
 import Register from '../components/Register/Register';
 // import SingleOrder from '../components/SingleOrder/SingleOrder';
 
-// import connection from '../firebaseRequests/connection';
+import fbConnection from '../firebaseRequests/connection';
+fbConnection();
 // import mashupRequests from '../firebaseRequests/animals';
 
 const PrivateRoute = ({ component: Component, authed, ...rest}) => {
