@@ -19,36 +19,17 @@ class App extends Component {
   render () {
     return (
       <div className="App">
-        <div>
-          <Fish/>
-        </div>
-        <div>
-          <Home />
-        </div>
-        <div>
-          <Inventory />
-        </div>
-        <div>
-          <Login />
-        </div>
-        <div>
-          <Navbar />
-        </div>
-        <div>
-          <New />
-        </div>
-        <div>
-          <Order />
-        </div>
-        <div>
-          <OrderSpa />
-        </div>
-        <div>
-          <Register />
-        </div>
-        <div>
-          <SingleOrder />
-        </div>
+
+        <Fish />
+        <Home />
+        <Inventory />
+        <Login />
+        <Navbar />
+        <New />
+        <Order />
+        <OrderSpa />
+        <Register />
+        <SingleOrder />
       </div>
     );
   }
