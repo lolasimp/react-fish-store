@@ -7,7 +7,7 @@ class OrderSpa extends React.Component {
   render () {
     return (
       <div className="OrderSpa">
-        <h2>OrderSpa</h2>
+        <h1>OrderSpa</h1>
       </div>
     );
   }

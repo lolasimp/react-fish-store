@@ -7,7 +7,7 @@ class Fish extends React.Component {
   render () {
     return (
       <div className="Fish">
-        <h2>Fish</h2>
+        <h1>Fish</h1>
       </div>
     );
   }

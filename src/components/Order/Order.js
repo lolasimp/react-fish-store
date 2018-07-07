@@ -7,7 +7,7 @@ class Order extends React.Component {
   render () {
     return (
       <div className="Order">
-        <h2>Order</h2>
+        <h1>Order</h1>
       </div>
     );
   }

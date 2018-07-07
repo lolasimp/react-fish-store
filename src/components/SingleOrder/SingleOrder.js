@@ -7,7 +7,7 @@ class SingleOrder extends React.Component {
   render () {
     return (
       <div className="SingleOrder">
-        <h2>SingleOrder</h2>
+        <h1>SingleOrder</h1>
       </div>
     );
   }
