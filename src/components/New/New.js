@@ -17,6 +17,13 @@ class New extends React.Component {
     newOrder[key] = newOrder[key] + 1 || 1;
     this.setState({ order: newOrder });
   }
+
+  removeFromOrder = (key) => {
+    const newOrder = {...this.state.order};
+    delete newOrder[key];
+    this.setState({order: newOrder});
+  };
+
   componentDidMount () {
     fishRequests
       .getRequest()
@@ -49,6 +56,7 @@ class New extends React.Component {
         <Order
           fishes={this.state.fishes}
           order={this.state.order}
+          removeFromOrder={this.removeFromOrder}
         />
       </div>
     );
